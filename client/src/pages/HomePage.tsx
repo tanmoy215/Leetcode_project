@@ -143,24 +143,33 @@ const HomePage: React.FC = () => {
             )}
           </div>
 
-          <div className="bg-gray-900 dark:bg-gray-800 rounded-lg p-6 font-mono text-sm">
-            <div className="text-success-400 mb-2">// Example: Two Sum Problem</div>
-            <div className="text-blue-400">function</div>
-            <div className="text-yellow-400"> twoSum</div>
-            <div className="text-white">(nums, target) {</div>
-            <div className="ml-4 text-gray-300">const map = new Map();</div>
-            <div className="ml-4 text-purple-400">for</div>
-            <div className="text-white"> (let i = 0; i &lt; nums.length; i++) {</div>
-            <div className="ml-8 text-gray-300">const complement = target - nums[i];</div>
-            <div className="ml-8 text-purple-400">if</div>
-            <div className="text-white"> (map.has(complement)) {</div>
-            <div className="ml-12 text-purple-400">return</div>
-            <div className="text-white"> [map.get(complement), i];</div>
-            <div className="ml-8 text-white">}</div>
-            <div className="ml-8 text-gray-300">map.set(nums[i], i);</div>
-            <div className="ml-4 text-white">}</div>
-            <div className="text-white">}</div>
-          </div>
+          <div className="bg-gray-900 dark:bg-gray-800 rounded-lg p-6 font-mono text-sm text-white space-y-1">
+  <div className="text-green-400">// Example: Two Sum Problem</div>
+  <div>
+    <span className="text-blue-400">function</span>{' '}
+    <span className="text-yellow-400">twoSum</span>
+    <span>(nums, target) {'{'}</span>
+  </div>
+  <div className="ml-4 text-gray-300">const map = new Map();</div>
+  <div className="ml-4">
+    <span className="text-purple-400">for</span>{' '}
+    <span>(let i = 0; i &lt; nums.length; i++) {'{'}</span>
+  </div>
+  <div className="ml-8 text-gray-300">const complement = target - nums[i];</div>
+  <div className="ml-8">
+    <span className="text-purple-400">if</span>{' '}
+    <span>(map.has(complement)) {'{'}</span>
+  </div>
+  <div className="ml-12">
+    <span className="text-purple-400">return</span>{' '}
+    <span>[map.get(complement), i];</span>
+  </div>
+  <div className="ml-8">{'}'}</div>
+  <div className="ml-8 text-gray-300">map.set(nums[i], i);</div>
+  <div className="ml-4">{'}'}</div>
+  <div>{'}'}</div>
+</div>
+
         </div>
       </section>
 
