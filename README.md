@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![RapidCode Banner](https://via.placeholder.com/1200x300/1e293b/3b82f6?text=RapidCode+-+Code+Smarter,+Learn+Faster)
+![RapidCode Banner](https://ibb.co/Gjf6hpc)
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/rapidcode)
 [![Response Time](https://img.shields.io/badge/response%20time-%3C2s-blue)](https://rapidcode.example.com)
