@@ -67,7 +67,7 @@ Complete administrative control with full CRUD operations for managing problems,
 - **User Management**: Monitor user activity and submissions
 - **Analytics Dashboard**: Real-time statistics and platform insights
 
-![Admin Panel Preview](https://via.placeholder.com/800x450/1e293b/3b82f6?text=Admin+Panel+Dashboard)
+![Admin Panel Preview](https://github.com/tanmoy215/asset/blob/4a50ab7646277bea35bc06da78c8c4d2ea99229b/Screenshot%202025-11-19%20093248.png)
 
 ### 2️⃣ Editorial Section
 Rich learning experience with video explanations for complex problems.
@@ -77,7 +77,7 @@ Rich learning experience with video explanations for complex problems.
 - **Cloudinary Integration**: Seamless video streaming and delivery
 - **Mobile Responsive**: Watch tutorials on any device
 
-![Editorial Preview](https://via.placeholder.com/800x450/1e293b/10b981?text=Video+Editorial+Player)
+![Editorial Preview](https://github.com/tanmoy215/asset/blob/4a50ab7646277bea35bc06da78c8c4d2ea99229b/Screenshot%202025-11-19%20093455.png)
 
 ### 3️⃣ Multi-Language Solutions
 View optimized solutions in your preferred programming language.
@@ -87,7 +87,7 @@ View optimized solutions in your preferred programming language.
 - **Time/Space Complexity**: Big-O notation for each solution
 - **Best Practices**: Industry-standard code patterns
 
-![Solutions Preview](https://via.placeholder.com/800x450/1e293b/f59e0b?text=Multi-Language+Solutions)
+![Solutions Preview](https://github.com/tanmoy215/asset/blob/4a50ab7646277bea35bc06da78c8c4d2ea99229b/Screenshot%202025-11-19%20093345.png)
 
 ### 4️⃣ Submission History & Tracking
 Complete visibility into your coding journey.
@@ -97,7 +97,7 @@ Complete visibility into your coding journey.
 - **Performance Metrics**: Track improvement over time
 - **Filtering & Search**: Find specific submissions quickly
 
-![Submission History](https://via.placeholder.com/800x450/1e293b/8b5cf6?text=Submission+Tracking+Dashboard)
+![Submission History](https://github.com/tanmoy215/asset/blob/4a50ab7646277bea35bc06da78c8c4d2ea99229b/Screenshot%202025-11-19%20093337.png)
 
 ### 5️⃣ AI Chatbot Assistant
 Problem-specific intelligent assistance powered by advanced LLM.
@@ -107,7 +107,7 @@ Problem-specific intelligent assistance powered by advanced LLM.
 - **Concept Explanations**: Deep-dive into algorithms and data structures
 - **Natural Conversations**: Ask questions in plain English
 
-![AI Chatbot](https://via.placeholder.com/800x450/1e293b/ec4899?text=AI+Chatbot+Interface)
+![AI Chatbot](https://github.com/tanmoy215/asset/blob/4a50ab7646277bea35bc06da78c8c4d2ea99229b/Screenshot%202025-11-19%20093432.png)
 
 ### 6️⃣ Visual Code Execution
 Step-by-step visualization of code execution for better understanding.
@@ -117,7 +117,7 @@ Step-by-step visualization of code execution for better understanding.
 - **Memory Visualization**: Understand stack and heap operations
 - **Debugging Aid**: Identify logic errors visually
 
-![Code Visualization](https://via.placeholder.com/800x450/1e293b/06b6d4?text=Code+Execution+Visualizer)
+![Code Visualization](https://github.com/tanmoy215/asset/blob/692f4b136b256c7b48e87ed41a81be0ce3a16cba/code%20flow.png)
 
 ### 7️⃣ Advanced Filters & Search
 Powerful filtering system to find the right problems.
@@ -128,7 +128,7 @@ Powerful filtering system to find the right problems.
 - **Status Filters**: Solved, Attempted, Unsolved
 - **Text Search**: Search by problem title or description
 
-![Filters Interface](https://via.placeholder.com/800x450/1e293b/14b8a5?text=Advanced+Filters+Panel)
+![Filters Interface](https://github.com/tanmoy215/asset/blob/692f4b136b256c7b48e87ed41a81be0ce3a16cba/filter.png)
 
 ### 8️⃣ Rate Limiting & Abuse Prevention
 Enterprise-grade security measures to prevent platform abuse.
@@ -139,7 +139,7 @@ Enterprise-grade security measures to prevent platform abuse.
 - **Role-Based Access Control**: Admin vs. User permissions
 - **Request Queue Management**: Fair resource allocation
 
-![Rate Limiting Dashboard](https://via.placeholder.com/800x450/1e293b/ef4444?text=Rate+Limiting+Monitor)
+![Rate Limiting Dashboard](https://github.com/tanmoy215/asset/blob/692f4b136b256c7b48e87ed41a81be0ce3a16cba/rate%20limiter.png)
 
 ---
 
@@ -600,39 +600,16 @@ Create a `.env` file in the root directory:
 
 ```env
 # Application
-NODE_ENV=development
-PORT=5000
-CLIENT_URL=http://localhost:5173
-
-# Database
-MONGODB_URI=mongodb://localhost:27017/rapidcode
-MONGODB_TEST_URI=mongodb://localhost:27017/rapidcode_test
-
-# Redis
-REDIS_URL=redis://localhost:6379
-REDIS_PASSWORD=your_redis_password
-
-# Authentication
-JWT_SECRET=your_super_secret_jwt_key_min_32_chars
-JWT_EXPIRES_IN=7d
-BCRYPT_ROUNDS=10
-
-# Judge0 API
-JUDGE0_HOST=https://judge0-ce.p.rapidapi.com
-JUDGE0_API_KEY=your_judge0_api_key
-
-# Cloudinary
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-
-# OpenAI
-OPENAI_API_KEY=your_openai_api_key
-OPENAI_MODEL=gpt-4-turbo-preview
-
-# Rate Limiting
-RATE_LIMIT_WINDOW=60
-RATE_LIMIT_MAX_REQUESTS=10
+PORT= 1000
+JWT_KEY= Empty
+DB_CONNECTION_KEY=Empty
+REDIS_PASS=Empty
+RAPID_API_KEY = Empty
+JUDGE0_API_URL = Empty
+GOOGLE_API = Empty
+CLOUDINARY_CLOUD_NAME = Empty
+CLOUDINARY_API_KEY = Empty
+CLOUDINARY_API_SECRET = Empty
 ```
 
 4. **Start MongoDB and Redis**
@@ -1087,7 +1064,7 @@ Found a bug or have a feature request? Please create an issue with:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](#) file for details.
 
 ```
 MIT License
@@ -1111,28 +1088,22 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
 ```
 
 ---
 
 ## 📞 Contact
 
-**Project Maintainer**: Your Name
+**Project Maintainer**: Tanmoy Majee
 
-- 📧 Email: your.email@example.com
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- 📧 Email: majitanmoy14@gmail.com
+- 🐙 GitHub: [Tanmoy Majee](https://github.com/tanmoy215)
+- 💼 LinkedIn: [Tanmoy Majee](https://www.linkedin.com/in/tanmoy-majee-empty/)
+- 🌐 Portfolio: [CodeLoom](https://tanmoy215.github.io/Code-e-Tanmoy/)
 
-### Project Links
 
-- 🚀 Live Demo: [https://rapidcode.example.com](https://rapidcode.example.com)
-- 📚 Documentation: [https://docs.rapidcode.example.com](https://docs.rapidcode.example.com)
-- 🐛 Issue Tracker: [https://github.com/yourusername/rapidcode/issues](https://github.com/yourusername/rapidcode/issues)
-- 💬 Discord Community: [https://discord.gg/rapidcode](https://discord.gg/rapidcode)
-
----
 
 ## 🙏 Acknowledgments
 
@@ -1160,8 +1131,7 @@ SOFTWARE.
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Tanmoy Majee](https://tanmoy215.github.io/Code-e-Tanmoy/)
 
-[Back to Top](#-rapidcode---next-generation-coding-platform)
 
 </div>
