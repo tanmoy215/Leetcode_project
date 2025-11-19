@@ -1,8 +1,8 @@
-# 🚀 RapidCode - Next-Generation Coding Platform
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/64d3a4b2-a2a1-4faa-88c1-58897675ab95" /># 🚀 RapidCode - Next-Generation Coding Platform
 
 <div align="center">
 
-![RapidCode Banner](https://ibb.co/Gjf6hpc)
+![RapidCode Banner](https://chatgpt.com/backend-api/estuary/content?id=file_00000000e00472079fbe448ffdef868b&ts=489867&p=fs&cid=1&sig=4000638d131d220b1014814c76db7f697ea965d75289362a86ef3b7c85215abc&v=0)
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/rapidcode)
 [![Response Time](https://img.shields.io/badge/response%20time-%3C2s-blue)](https://rapidcode.example.com)
