@@ -1,17 +1,8 @@
-<img width="1536" height="1024" alt="image" src="[https://github.com/user-attachments/assets/64d3a4b2-a2a1-4faa-88c1-58897675ab95](https://chatgpt.com/backend-api/estuary/content?id=file_00000000e00472079fbe448ffdef868b&ts=489867&p=fs&cid=1&sig=4000638d131d220b1014814c76db7f697ea965d75289362a86ef3b7c85215abc&v=0)" /># 🚀 RapidCode - Next-Generation Coding Platform
+🚀 RapidCode - Next-Generation Coding Platform
 
 <div align="center">
 
 ![RapidCode Banner](https://chatgpt.com/backend-api/estuary/content?id=file_00000000e00472079fbe448ffdef868b&ts=489867&p=fs&cid=1&sig=4000638d131d220b1014814c76db7f697ea965d75289362a86ef3b7c85215abc&v=0)
-
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/yourusername/rapidcode)
-[![Response Time](https://img.shields.io/badge/response%20time-%3C2s-blue)](https://rapidcode.example.com)
-[![Problems](https://img.shields.io/badge/problems-150%2B-orange)](https://rapidcode.example.com/problems)
-[![Languages](https://img.shields.io/badge/languages-5%2B-red)](https://rapidcode.example.com)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Uptime](https://img.shields.io/badge/uptime-99.9%25-success)](https://rapidcode.example.com)
-
-**[Live Demo](https://rapidcode.example.com)** • **[Documentation](https://docs.rapidcode.example.com)** • **[API Docs](https://api.rapidcode.example.com/docs)**
 
 </div>
 
