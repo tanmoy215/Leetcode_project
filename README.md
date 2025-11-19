@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![RapidCode Banner](https://chatgpt.com/backend-api/estuary/content?id=file_00000000e00472079fbe448ffdef868b&ts=489867&p=fs&cid=1&sig=4000638d131d220b1014814c76db7f697ea965d75289362a86ef3b7c85215abc&v=0)
+![RapidCode Banner](https://github.com/tanmoy215/asset/blob/4a50ab7646277bea35bc06da78c8c4d2ea99229b/Bannar.png)
 
 </div>
 
